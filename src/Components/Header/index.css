@@ -1,0 +1,137 @@
+.nav-container {
+  background-color: #272727;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-container {
+    padding: 10px;
+  }
+}
+
+.image-logo {
+  height: 34px;
+  width: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-logo {
+    margin-left: 15px;
+    width: 90px;
+  }
+}
+
+.navigation-container-small-devices {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-container-small-devices {
+    display: none;
+  }
+}
+.navigation-container-large-devices {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation-container-large-devices {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logout {
+    display: none;
+  }
+}
+.logout-icon-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-right: 20px;
+}
+.navigation-container-large-devices {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation-container-large-devices {
+    display: none;
+  }
+}
+.home-link {
+  list-style-type: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-link {
+    display: none;
+  }
+}
+.onClick-link {
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .onClick-link {
+    display: none;
+  }
+}
+.logout-button {
+  color: #ffffff;
+  background-color: #6366f1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 90px;
+  padding: 6px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .logout-button {
+    display: none;
+  }
+}
+
+.logOut-button-list-item {
+  list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logOut-button-list-item {
+    display: none;
+  }
+}
+
+.small-device-link-items {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .small-device-link-items {
+    display: none;
+  }
+}
+
+.logOut-icon-button {
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logOut-icon-button {
+    display: none;
+  }
+}

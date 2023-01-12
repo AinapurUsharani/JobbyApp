@@ -1,0 +1,31 @@
+.failure-container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.notFound-failure-image {
+  height: 300px;
+  width: 250px;
+  margin-top: 40px;
+}
+
+.notFound-failure-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 20px;
+  line-height: 0.5;
+}
+
+.notFound-failure-paragraph {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #ffffff;
+  line-height: 1.5;
+  margin-left: 70px;
+  margin-right: 20px;
+}

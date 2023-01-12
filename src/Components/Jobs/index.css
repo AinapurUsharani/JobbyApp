@@ -1,0 +1,357 @@
+.small {
+  display: flex;
+  flex-direction: column;
+}
+
+.no-jobs-heading {
+  color: #ffffff;
+}
+
+.no-jobs-para {
+  color: #ffffff;
+}
+
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-container {
+    flex-direction: row;
+  }
+}
+.search-container {
+  display: flex;
+  color: #272727;
+  border: 2px solid #272727;
+  justify-content: space-between;
+  width: 88%;
+  margin: 8px;
+}
+
+.search-container-large-devices {
+  display: flex;
+  color: #272727;
+  border: 2px solid #272727;
+  justify-content: space-between;
+  width: 88%;
+  margin: 8px;
+}
+
+.searchElement {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  width: 90%;
+}
+.searchIcon {
+  background-color: #272727;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  align-items: center;
+}
+
+.Profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .Profile-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-size: cover;
+    margin: 30px;
+    border-radius: 10px;
+    width: 280px;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile-container-large-device {
+    display: none;
+  }
+}
+
+.special-button-element {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.profile-image {
+  height: 45px;
+  width: 45px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.person-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+
+  color: #6366f1;
+  margin-left: 20px;
+}
+.person-bio {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #2c364c;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+.list-items-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+.list-items-heading-large-devices {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 15px;
+  line-height: 0.3;
+}
+
+.list-item-with-square {
+  display: flex;
+  align-items: center;
+
+  line-height: 0;
+}
+
+.list-para {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+.jobs-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.each-job-container {
+  display: flex;
+
+  background-color: #272727;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 12px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .each-job-container {
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-left: 60px;
+  }
+}
+.logo-title-container {
+  display: flex;
+  width: 60%;
+}
+.logo {
+  height: 50px;
+  width: 35px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.job-title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 25px;
+  line-height: 0.5;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+}
+.rating {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.location-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-type-container {
+  display: flex;
+  align-items: center;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.employmentType-type-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.location {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.location1 {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 12px;
+  margin: 10px;
+}
+
+.line {
+  margin: 10px;
+}
+
+.DescriptionHeading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 10px;
+  line-height: 0.5;
+  font-weight: 500;
+}
+
+.paragraph-des {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.container-1-large-devices {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .container-1-large-devices {
+    display: none;
+  }
+}
+.container-2-large-devices {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .container-2-large-devices {
+    display: none;
+  }
+}
+
+.job-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-image {
+  height: 200px;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 0.3;
+  margin-right: 40px;
+}
+
+.failure-para {
+  font-family: 'Roboto';
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 0.1;
+  margin-right: 40px;
+}
+
+.jobs-retry-button {
+  background-color: #4f46e5;
+  width: 100px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 0.1;
+  font-weight: 400;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.profile-failure-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  width: 90%;
+  height: 200px;
+}
+
+.profile-retry-button {
+  background-color: #4f46e5;
+  width: 100px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 0.1;
+  font-weight: 400;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .loader-container {
+    width: 200px;
+    height: 200px;
+  }
+}
+.link-item-decoration {
+  text-decoration: none;
+}
